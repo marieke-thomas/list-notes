@@ -29,14 +29,19 @@ print(fav_foods)
 # print("I really like " + fav_foods[2])
 # print("I really like " + fav_foods[3])
 
+# List iteration (repeating code for each item in a list)
 for i in range(8):
     print (i)
 
 for i in range(4):
     print ("I really like " + fav_foods[i])
 
-for thing in fav_foods:
-    print ("I really love " + thing)
+for food in fav_foods:
+    print ("I really love " + food)
+
+# This code does the exact same thing-- it doesn't matter to the computer what word you use to describe the items in the list
+# for thing in fav_foods:
+#     print ("I really love " + thing)
 
 sentence = "I really like "
 for food in fav_foods:
